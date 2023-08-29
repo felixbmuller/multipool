@@ -3,7 +3,7 @@ from multiprocessing.pool import ThreadPool
 import os
 from typing import Optional
 
-from mock_pool import MockPool
+from .mock_pool import MockPool
 
 class MultiPool:
 
